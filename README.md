@@ -1,5 +1,5 @@
-# react-bootstrap-template
-A webpack project with working React and Bootstrap configurations.
+# github-user-lookup
+A lookup tool using GitHub's user search API.
 
 
 ## How to use the files?
