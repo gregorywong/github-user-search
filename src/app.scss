@@ -1,15 +1,13 @@
 body {
-  background-color: #EEE;
+  background-color: #EEE!important;
 } 
 
 header {
-  background-color: gainsboro;
+  background-color: #CE3535;
+  color: #EEE;
 }
 
-.input-pane {
-  font-family: Courier New, Courier, monospace;
-}
-
-.output-pane {
-  font-size: 14px;
+.profile-image {
+  width: 150px;
+  height: 150px;
 }
