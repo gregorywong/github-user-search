@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <div>
         <Header />
-        <SearchResults />
+        <SearchResults searchTerm="greg wong"/>
       </div>
     )
   }
