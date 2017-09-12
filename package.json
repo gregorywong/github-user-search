@@ -1,7 +1,7 @@
 {
   "name": "github-user-lookup",
   "version": "1.0.0",
-  "description": "A lookup tool using GitHub's user search API.",
+  "description": "A user lookup tool using GitHub's user search API. Built using React and Bootstrap.",
   "main": "index.ejs",
   "scripts": {
     "dev": "webpack-dev-server",
