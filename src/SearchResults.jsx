@@ -18,8 +18,12 @@ export default class SearchResults extends React.Component {
       fetch(searchUrl)
         .then((response) => response.json())
         .then((json) => {
+          let users = json.users.map((user) => {
+            const {username, fullname} = user;
+            return {username, fullname};
+          });
           this.setState({
-            users: json.users
+            users
           })
         })
     }
