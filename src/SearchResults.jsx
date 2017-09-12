@@ -12,18 +12,6 @@ export default class SearchResults extends React.Component {
     }
   }
 
-  // // testing
-  // componentDidMount() {
-  //   const searchUrl = searchUrlPrefix + this.props.searchTerm;
-  //   fetch(searchUrl)
-  //     .then((response) => response.json())
-  //     .then((json) => {
-  //       this.setState({
-  //         users: json.users
-  //       })
-  //     })
-  // }
-
   componentWillReceiveProps(nextProps) {
     if (nextProps.searchTerm !== this.props.searchTerm) {
       const searchUrl = searchUrlPrefix + nextProps.searchTerm;
@@ -47,6 +35,7 @@ export default class SearchResults extends React.Component {
               <div className='col-6 col-sm-4 col-md-3 col-lg-2 text-center p-3' key={i}>
                 <a href={profileUrlPrefix + user.username}>
                   <img src={imgUrlPrefix + user.username} className='profile-image rounded mb-2' alt="" />
+                  <br />
                   <span>{user.username}</span>
                 </a>
                 <br />
