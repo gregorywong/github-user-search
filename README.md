@@ -1,6 +1,6 @@
 # github-user-lookup
 A lookup tool using GitHub's user search API.
-
+A working version can be found here: https://gregorywong.github.io/github-user-search/
 
 ## How to use the files?
 
