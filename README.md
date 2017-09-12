@@ -1,5 +1,6 @@
 # github-user-lookup
-A lookup tool using GitHub's user search API.
+A user lookup tool using GitHub's user search API. Built using React and Bootstrap.
+
 A working version can be found here: https://gregorywong.github.io/github-user-search/
 
 ## How to use the files?
